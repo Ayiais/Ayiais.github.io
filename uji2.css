@@ -1,0 +1,317 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+}
+header img{
+    background-image: url(5766840.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+.logo h1{
+    color: #041944;
+    font-size: 30px;
+    float: left;
+    font-weight: 700;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    top: 0px;
+    background:white;
+    position: sticky;
+    position: -webkit-sticky;
+}
+.navbar{
+    flex: 1;
+    text-align: right;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.navbar ul li a{
+    color: #041944;
+    text-decoration: none;
+    font-size: 13px;
+}
+.navbar ul li a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #041944;
+    display: block; 
+    margin: auto;
+}
+.navbar ul li a:hover:after{
+    width: 100%;
+}
+section{
+    margin: auto;
+    display: flex;
+    margin: bottom 50px;
+    background-color: white;
+}
+.deskripsi{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Comic Neue';
+    color: #041944;
+}
+.deskripsi h2{
+    font-family: 'Shadows Into Light';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: #4A4E69;
+}
+.konten1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Comic Neue';
+    color: #041944;
+    padding: 50px;
+    text-align: justify;
+}
+.konten1 h2{
+    font-family: 'Shadows Into Light';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: #4A4E69;
+}
+.konten2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Comic Neue';
+    color: #041944;
+    padding: 50px;
+    text-align: justify;
+}
+.konten2 h2{
+    font-family: 'Shadows Into Light';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: #4A4E69;
+}
+.section{
+    float: left;
+    width: fit-content;
+}
+button{
+    border: 1px solid #041944;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    margin: 10px;
+    color: #041944;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+button:hover{
+    color: white;
+}
+button::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #041944;
+    z-index: -1; 
+    transition: 0.8s;
+}
+button::before{
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+button:hover::before{
+    height: 180%;
+}
+/* halaman kedua */
+#menu1 h3{
+    font-size: 20px;
+    text-align: center;
+}
+.halamankedua{
+    background-color:rgb(242, 233, 228, 0.5);
+    margin: 0px;
+    padding: 50px;
+}
+.halamankedua h4{
+    text-align: center;
+}
+.layanan{
+    padding: 50px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.layanan h4{
+    color: #041944;
+    font-family: "Shadows Into Light";
+}
+.layanan.satu{
+    background-color:  rgb(154, 140, 152, 0.40);;
+}
+.layanan.dua{
+    background-color: rgb(154, 140, 152, 0.15);
+}
+.layanan.tiga{
+    background-color:  rgb(154, 140, 152, 0.40);;
+}
+.layanan.empat{
+    background-color: rgb(154, 140, 152, 0.15);
+}
+.layanan.lima{
+    background-color:  rgb(154, 140, 152, 0.40);;
+}
+.layanan.enam{
+    background-color: rgb(154, 140, 152, 0.15);
+}
+/* halaman ketiga */
+.halamanketiga{
+    background-color: rgb(154, 140, 152, 0.40);
+    text-align: center;
+}
+.halamanketiga h6{
+    font-size: 15px; 
+    font-family: 'Shadows Into Light'; 
+    margin-bottom: 20px; 
+}
+.halamanketiga h1{
+    color: rgb(74, 78, 105);
+}
+.halamanketiga p{
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: 'Comic Neue';
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(74, 78, 105);
+}
+.halamanketiga img{
+    border-radius: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.halamansatu button{
+    background-color: #041944;
+}
+
+/* ikon */
+.wrapper .btn{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    background: white;
+    overflow: hidden;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-in;
+    margin-bottom: 20px;
+}
+.wrapper .btn:hover {
+    width: 200px;
+}
+.wrapper .btn .icon{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 40px;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+.wrapper .btn:nth-child(1):hover .icon{
+    background: #dcdcdc;
+}
+.wrapper .btn:nth-child(2):hover .icon{
+    background: #dcdcdc;
+}
+.wrapper .btn:nth-child(3):hover .icon{
+    background: #dcdcdc;
+}
+.wrapper .btn:nth-child(4):hover .icon{
+    background: #dcdcdc;
+}
+.wrapper .btn .icon i{
+    font-size: 25px;
+    line-height: 40px;
+    transition: all 0.3s ease-in;
+}
+.wrapper .btn:hover .icon i{
+    color: white;
+}
+.wrapper .btn span{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-left: 10px;
+}
+#Form{
+    text-align: center;
+    background-color: rgb(154, 140, 152, 0.40);
+    color: #041944;
+    font-family: "Comic Neue";
+}
+/* footer */
+footer{
+    background-color: rgb(34, 34, 59);
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+footer p{
+    margin-bottom: 20px;
+}
+@media ( min-width: 600px ) {
+    .wrap img{
+        width: 80%;
+    }
+    #profile{
+        display: flex;
+        justify-content: space-between;
+    }
+    #profile1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .layanan{
+        width: 30%;
+    }
+}
